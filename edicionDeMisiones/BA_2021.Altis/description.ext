@@ -1,0 +1,45 @@
+#include "dmb\dialog_def.hpp"
+
+//Loading Screen Info
+author = "ZR Army - Dept. Tecnico y Diseño";
+OnLoadName = "Base Alpha ZR";
+OnLoadMission = "Uso exclusivo de Zona Roja Army.";
+loadScreen = "loadscreen.jpg";
+overviewText = "Uso exclusivo de Zona Roja Army. MAPA: ALTIS. Prohibida su modificacion/distribución fuera de Zona Roja Army.";
+
+//Gametype and settings
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 60;
+};
+
+//Respawn options
+Respawn = Base;
+RespawnDelay = 5;
+RespawnDialog = 0;
+
+//Mission Options
+disabledAI = 1;
+defriefing = 1;
+showGPS = 1;
+
+//Debug and Admin
+enableDebugConsole = 1;
+
+//Sets the variables for corpse removal manager
+corpseManagerMode = 1;
+corpseLimit = 25;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 1800;
+
+
+// ***********  Imports **********
+
+//Sonidos
+// #include "cfg\cfgSounds.hpp"
+
+//funciones
+#include "cfg\cfgFunctions.hpp"
